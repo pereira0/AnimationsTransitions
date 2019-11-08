@@ -8,6 +8,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DrawableAnimActivity"></activity>
+        <activity android:name=".ViewAnimActivity" />
+        <activity android:name=".PropertyAnimActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
