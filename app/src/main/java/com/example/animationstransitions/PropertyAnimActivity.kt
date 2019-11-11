@@ -27,7 +27,10 @@ class PropertyAnimActivity : AppCompatActivity() {
             duration = 1000
             interpolator = AccelerateDecelerateInterpolator()
         }
-        initBtnAnim.start()
+//        initBtnAnim.start()
+
+        val animFadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in)
+        runBtn.startAnimation(animFadeIn)
     }
 
     fun backBtnClicked(view: View) {
